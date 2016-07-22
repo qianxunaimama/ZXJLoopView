@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5614C71C1D426DDC00CB7063 /* ZXJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5614C71B1D426DDC00CB7063 /* ZXJCell.m */; };
+		5614C71D1D426DDC00CB7063 /* ZXJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5614C71B1D426DDC00CB7063 /* ZXJCell.m */; };
+		5614C71E1D426DDC00CB7063 /* ZXJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5614C71B1D426DDC00CB7063 /* ZXJCell.m */; };
 		56F9EFB71D425CD100252ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F9EFB61D425CD100252ED3 /* main.m */; };
 		56F9EFBA1D425CD100252ED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F9EFB91D425CD100252ED3 /* AppDelegate.m */; };
 		56F9EFBD1D425CD100252ED3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F9EFBC1D425CD100252ED3 /* ViewController.m */; };
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5614C71A1D426DDC00CB7063 /* ZXJCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCell.h; sourceTree = "<group>"; };
+		5614C71B1D426DDC00CB7063 /* ZXJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCell.m; sourceTree = "<group>"; };
 		56F9EFB21D425CD100252ED3 /* ZXJLoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXJLoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F9EFB61D425CD100252ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56F9EFB81D425CD100252ED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +108,8 @@
 			children = (
 				56F9EFB81D425CD100252ED3 /* AppDelegate.h */,
 				56F9EFB91D425CD100252ED3 /* AppDelegate.m */,
+				5614C71A1D426DDC00CB7063 /* ZXJCell.h */,
+				5614C71B1D426DDC00CB7063 /* ZXJCell.m */,
 				56F9EFBB1D425CD100252ED3 /* ViewController.h */,
 				56F9EFBC1D425CD100252ED3 /* ViewController.m */,
 				56F9EFBE1D425CD100252ED3 /* Main.storyboard */,
@@ -270,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5614C71C1D426DDC00CB7063 /* ZXJCell.m in Sources */,
 				56F9EFBD1D425CD100252ED3 /* ViewController.m in Sources */,
 				56F9EFBA1D425CD100252ED3 /* AppDelegate.m in Sources */,
 				56F9EFB71D425CD100252ED3 /* main.m in Sources */,
@@ -280,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5614C71D1D426DDC00CB7063 /* ZXJCell.m in Sources */,
 				56F9EFD01D425CD100252ED3 /* ZXJLoopViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5614C71E1D426DDC00CB7063 /* ZXJCell.m in Sources */,
 				56F9EFDB1D425CD100252ED3 /* ZXJLoopViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +506,7 @@
 				56F9EFE11D425CD100252ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56F9EFE21D425CD100252ED3 /* Build configuration list for PBXNativeTarget "ZXJLoopViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				56F9EFE41D425CD100252ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56F9EFE51D425CD100252ED3 /* Build configuration list for PBXNativeTarget "ZXJLoopViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				56F9EFE71D425CD100252ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
