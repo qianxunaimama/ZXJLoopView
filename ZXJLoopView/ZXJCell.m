@@ -13,6 +13,9 @@
 @property (strong, nonatomic)  UIImageView *imageView;
 
 @end
+
+static  NSString *reuseId = @"loopCell" ;
+
 @implementation ZXJCell
 
 

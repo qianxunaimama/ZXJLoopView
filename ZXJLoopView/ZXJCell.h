@@ -13,3 +13,5 @@
 @property (copy, nonatomic)  NSString *imageName;
 
 @end
+
+extern NSString *reuseId = @"loopCell" ;

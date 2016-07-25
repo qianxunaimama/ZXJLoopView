@@ -15,7 +15,6 @@
 
 @end
 
-static  NSString *reuseId = @"loopCell" ;
 
 @implementation ViewController
 
