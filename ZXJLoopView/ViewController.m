@@ -38,7 +38,7 @@
 }
 -(NSArray *)pictureNameArray{
     if (_pictureNameArray == nil) {
-        _pictureNameArray = @[@"1",@"2",@"3"];
+        _pictureNameArray = @[@"1",@"http://www.1866.tv/Upload_Map/2015nian/8/25/2015-08-25-09-45-25359.jpg",@"3"];
     }
     return _pictureNameArray;
 }

@@ -13,6 +13,9 @@
 		56F6AD8E1D4766DB0052B790 /* ZXJLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F6AD8D1D4766DB0052B790 /* ZXJLoopView.m */; };
 		56F6AD8F1D4766DB0052B790 /* ZXJLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F6AD8D1D4766DB0052B790 /* ZXJLoopView.m */; };
 		56F6AD901D4766DB0052B790 /* ZXJLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F6AD8D1D4766DB0052B790 /* ZXJLoopView.m */; };
+		56F6AD931D479C0B0052B790 /* UIImageView+ZXJWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F6AD921D479C0B0052B790 /* UIImageView+ZXJWebImage.m */; };
+		56F6AD941D479C0B0052B790 /* UIImageView+ZXJWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F6AD921D479C0B0052B790 /* UIImageView+ZXJWebImage.m */; };
+		56F6AD951D479C0B0052B790 /* UIImageView+ZXJWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F6AD921D479C0B0052B790 /* UIImageView+ZXJWebImage.m */; };
 		56F9EFB71D425CD100252ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F9EFB61D425CD100252ED3 /* main.m */; };
 		56F9EFBA1D425CD100252ED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F9EFB91D425CD100252ED3 /* AppDelegate.m */; };
 		56F9EFBD1D425CD100252ED3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F9EFBC1D425CD100252ED3 /* ViewController.m */; };
@@ -45,6 +48,8 @@
 		5614C71B1D426DDC00CB7063 /* ZXJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCell.m; sourceTree = "<group>"; };
 		56F6AD8C1D4766DB0052B790 /* ZXJLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJLoopView.h; sourceTree = "<group>"; };
 		56F6AD8D1D4766DB0052B790 /* ZXJLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJLoopView.m; sourceTree = "<group>"; };
+		56F6AD911D479C0B0052B790 /* UIImageView+ZXJWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZXJWebImage.h"; sourceTree = "<group>"; };
+		56F6AD921D479C0B0052B790 /* UIImageView+ZXJWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZXJWebImage.m"; sourceTree = "<group>"; };
 		56F9EFB21D425CD100252ED3 /* ZXJLoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXJLoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F9EFB61D425CD100252ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56F9EFB81D425CD100252ED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56F6AD961D47B3960052B790 /* ZXJLoopViewMain */ = {
+			isa = PBXGroup;
+			children = (
+				56F6AD8C1D4766DB0052B790 /* ZXJLoopView.h */,
+				56F6AD8D1D4766DB0052B790 /* ZXJLoopView.m */,
+				56F6AD911D479C0B0052B790 /* UIImageView+ZXJWebImage.h */,
+				56F6AD921D479C0B0052B790 /* UIImageView+ZXJWebImage.m */,
+				5614C71A1D426DDC00CB7063 /* ZXJCell.h */,
+				5614C71B1D426DDC00CB7063 /* ZXJCell.m */,
+			);
+			name = ZXJLoopViewMain;
+			sourceTree = "<group>";
+		};
 		56F9EFA91D425CD100252ED3 = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +129,9 @@
 		56F9EFB41D425CD100252ED3 /* ZXJLoopView */ = {
 			isa = PBXGroup;
 			children = (
-				56F6AD8C1D4766DB0052B790 /* ZXJLoopView.h */,
-				56F6AD8D1D4766DB0052B790 /* ZXJLoopView.m */,
+				56F6AD961D47B3960052B790 /* ZXJLoopViewMain */,
 				56F9EFB81D425CD100252ED3 /* AppDelegate.h */,
 				56F9EFB91D425CD100252ED3 /* AppDelegate.m */,
-				5614C71A1D426DDC00CB7063 /* ZXJCell.h */,
-				5614C71B1D426DDC00CB7063 /* ZXJCell.m */,
 				56F9EFBB1D425CD100252ED3 /* ViewController.h */,
 				56F9EFBC1D425CD100252ED3 /* ViewController.m */,
 				56F9EFBE1D425CD100252ED3 /* Main.storyboard */,
@@ -221,6 +236,7 @@
 				TargetAttributes = {
 					56F9EFB11D425CD100252ED3 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VEPLKE8496;
 					};
 					56F9EFCA1D425CD100252ED3 = {
 						CreatedOnToolsVersion = 7.3;
@@ -284,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F6AD931D479C0B0052B790 /* UIImageView+ZXJWebImage.m in Sources */,
 				5614C71C1D426DDC00CB7063 /* ZXJCell.m in Sources */,
 				56F9EFBD1D425CD100252ED3 /* ViewController.m in Sources */,
 				56F9EFBA1D425CD100252ED3 /* AppDelegate.m in Sources */,
@@ -296,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F6AD941D479C0B0052B790 /* UIImageView+ZXJWebImage.m in Sources */,
 				5614C71D1D426DDC00CB7063 /* ZXJCell.m in Sources */,
 				56F6AD8F1D4766DB0052B790 /* ZXJLoopView.m in Sources */,
 				56F9EFD01D425CD100252ED3 /* ZXJLoopViewTests.m in Sources */,
@@ -306,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F6AD951D479C0B0052B790 /* UIImageView+ZXJWebImage.m in Sources */,
 				5614C71E1D426DDC00CB7063 /* ZXJCell.m in Sources */,
 				56F6AD901D4766DB0052B790 /* ZXJLoopView.m in Sources */,
 				56F9EFDB1D425CD100252ED3 /* ZXJLoopViewUITests.m in Sources */,
@@ -433,10 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ZXJLoopView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qw.ZXJLoopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -444,10 +466,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ZXJLoopView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qw.ZXJLoopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
