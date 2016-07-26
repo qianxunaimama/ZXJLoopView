@@ -14,7 +14,7 @@
 
 @end
 
-static  NSString *reuseId = @"loopCell" ;
+NSString *const reuseId = @"loopCell" ;
 
 @implementation ZXJCell
 

@@ -50,7 +50,7 @@
     [loopCollectionView setShowsHorizontalScrollIndicator:NO];//滚动条
     [loopCollectionView setPagingEnabled:YES];
 //    NSIndexPath *indexPath = [NSIndexPath indexPathWithIndex:self.pictureNameArray.count * 100 /2];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:self.pictureNameArray.count * 100 /2
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:1
                                                  inSection:0];
     [loopCollectionView scrollToItemAtIndexPath:indexPath
                                atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally
@@ -61,16 +61,24 @@
 #pragma mark - UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     
-    return self.pictureNameArray.count * 100;
+//    return self.pictureNameArray.count * 100;
+    NSAssert(self.pictureNameArray.count  > 2, @"imageGroup content mistake");
+    return self.pictureNameArray.count ;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     ZXJCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseId forIndexPath:indexPath];
-    [cell setImageName:self.pictureNameArray[indexPath.item % self.pictureNameArray.count]];
+//    [cell setImageName:self.pictureNameArray[indexPath.item % self.pictureNameArray.count]];
+    [cell setImageName:self.pictureNameArray[indexPath.item ]];
     
     return cell;
 }
+
+- (void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
+    NSLog(@"---%s ",__FUNCTION__);//打印方法名
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

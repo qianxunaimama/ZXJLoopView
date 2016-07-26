@@ -14,4 +14,4 @@
 
 @end
 
-extern NSString *reuseId = @"loopCell" ;
+extern NSString *const reuseId;
